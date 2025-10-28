@@ -7,11 +7,13 @@ color: navy;
 text-align: center;
 }
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
-.project {
-width: 10%;
-margin: 10px;
-padding: 20px 10px;
-background: white; /* pick a color */
-border-radius: 15%;
-
+.project img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
 }
+
+
