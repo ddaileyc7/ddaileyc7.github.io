@@ -1,9 +1,9 @@
 body {
-background: rgba(133, 255, 145, 0.795);
-font-family: Arial, Helvetica, sans-serif;
+background: rgba(209, 206, 67, 0.854);
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
-color: navy;
+color: rgba(0, 0, 0, 0.781);
 text-align: center;
 }
 .projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
@@ -11,7 +11,7 @@ text-align: center;
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    border: 3px solid rgb(126, 14, 201); /* choose a color */
     display: block;
     margin: auto;
 }
